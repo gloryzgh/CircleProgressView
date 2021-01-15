@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleProgressBar">
+        <attr name="bgColor" format="color"/>
+        <attr name="progressColor" format="color"/>
+        <attr name="bgStrokeWidth" format="dimension"/>
+        <attr name="strokeWidth" format="dimension"/>
+        <attr name="textSize" format="dimension"/>
+        <attr name="iconSrc" format="reference"/>
+        <attr name="progress" format="integer"/>
+        <attr name="iconSrcWidth" format="dimension"/>
+        <attr name="type" format="enum">
+            <enum name="TEXT" value="1" />
+            <enum name="ICON" value="2" />
+            <enum name="NONE" value="3" />
+        </attr>
+
+        <attr name="strokeCap" format="enum">
+            <enum name="ROUND" value="1"/>
+            <enum name="SQUARE" value="2"/>
+        </attr>
+    </declare-styleable>
+</resources>
